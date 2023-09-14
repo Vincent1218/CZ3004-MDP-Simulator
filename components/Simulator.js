@@ -90,7 +90,6 @@ export const Simulator = () => {
       }
     }
 
-    console.log(robotCells);
     return robotCells;
   };
 
