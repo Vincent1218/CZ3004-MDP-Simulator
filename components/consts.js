@@ -1,3 +1,7 @@
+export const API = "https://cz3004-flask-d9cf94ef6ff5.herokuapp.com";
+
+// export const API = "http://127.0.0.1:5000";
+
 export const methodType = {
   get: "GET",
   post: "POST",

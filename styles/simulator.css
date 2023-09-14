@@ -1,0 +1,91 @@
+.title {
+  width: 800px;
+}
+
+.editor {
+  background-color: #d2daff;
+  width: 800px;
+}
+
+.normal-cell {
+  border-color: #46546d;
+}
+
+.obstacle-cell {
+  background-color: #404d64;
+}
+
+.robot-cell {
+  background-color: #6e85b7;
+  border-color: #46546d;
+}
+
+.robot-head-found {
+  background-color: #b4ff9f;
+}
+
+.robot-head-not-found {
+  background-color: #ffa1a1;
+}
+
+.obstacle-list {
+  width: 800px;
+}
+
+.obstacle-info-block {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.action-btn-group {
+  width: 800px;
+}
+
+.step-clicker {
+  width: 800px;
+  background-color: #f8e8ee;
+}
+
+.general-btn {
+  background-color: #b1b2ff;
+  border: none;
+  color: #27374d;
+}
+
+.general-btn:hover {
+  background-color: #a1a2ff;
+}
+
+.error-btn {
+  background-color: #ffa1a1;
+  border: none;
+  color: #505861;
+}
+
+.error-btn:hover {
+  background-color: #ff9191;
+}
+
+.warning-btn {
+  background-color: #ffd59e;
+  border: none;
+  color: #505861;
+}
+
+.warning-btn:hover {
+  background-color: #ffc58e;
+}
+
+.success-btn {
+  background-color: #b4ff9f;
+  border: none;
+  color: #505861;
+}
+
+.success-btn:hover {
+  background-color: #99fa83;
+}

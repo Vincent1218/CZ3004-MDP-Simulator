@@ -1,4 +1,4 @@
-import { methodType } from "./consts";
+import { methodType, API } from "./consts";
 
 export class CustomError extends Error {
   content;
@@ -15,7 +15,7 @@ export class CustomError extends Error {
 
 export default class BaseAPI {
   static JSONRequest(api, method, headers, options, content) {
-    const host = "https://mdpapi.kyaw.tech";
+    const host = API;
 
     const requestOptions = {
       method,
